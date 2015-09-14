@@ -35,10 +35,10 @@ function change() {
       punch.play();
 
       var cursorID;
-      table.setAttribute('style', "cursor: url('http://graham.yn.lt/jgallery/test/splat.png') 30 10, auto; display: table");
+      table.setAttribute('style', "cursor: url('assets/splat.png') 30 10, auto; display: table");
       cursorID = window.setTimeout(unSplat, 100);
       function unSplat() {
-        table.setAttribute('style', "cursor: url('http://blogs.longwood.edu/librarywerx/files/2011/09/gavel.png'), auto; display: table");
+        table.setAttribute('style', "cursor: url('assets/gavel.png'), auto; display: table");
       };
 
       if (cell.className === "sprite sprite-mortal-10") {

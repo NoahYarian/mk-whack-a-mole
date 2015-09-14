@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'mk2';
-  src: url('https://dl.dropboxusercontent.com/s/i2w3u0bsldctrv6/mk2.ttf');
+  src: url('assets/mk2.ttf');
 }
 
 body {
@@ -18,7 +18,7 @@ table{
   height: 525px;
   width: 525px;
   border-spacing: 0;
-  cursor: url("http://blogs.longwood.edu/librarywerx/files/2011/09/gavel.png"), auto;
+  cursor: url("assets/gavel.png"), auto;
   display: none;
 }
 
@@ -49,7 +49,7 @@ audio {
 .start {
   height: 525px;
   width: 525px;
-  background-image: url("http://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Mortal_Kombat_Logo.svg/1017px-Mortal_Kombat_Logo.svg.png");
+  background-image: url("assets/MK.png");
   background-size: contain;
   display: table-cell;
 }
@@ -135,7 +135,7 @@ SPRITE TOWN
 **********/
 
 .sprite {
-    background-image: url(http://i.imgur.com/SnoJfwY.png);
+    background-image: url('assets/sprites.png');
     background-repeat: no-repeat;
     display: inline-block;
 }
