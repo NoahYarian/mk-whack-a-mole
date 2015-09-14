@@ -1,3 +1,5 @@
+console.log('Toasty!');
+
 var stats = document.querySelector('.stats');
 var timer = document.querySelector('.timer');
 var start = document.querySelector('.start');
@@ -24,6 +26,11 @@ document.querySelector('#start-button').onclick = function() {
 }
 document.querySelector('#play-again').onclick = function() {
   game();
+}
+
+document.querySelector('.toastyDiv').onclick = function() {
+  document.querySelector('.toasty').load();
+  document.querySelector('.toasty').play();
 }
 
 function change() {
