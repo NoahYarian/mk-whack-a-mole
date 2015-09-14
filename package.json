@@ -1,0 +1,19 @@
+{
+  "name": "mk-whack-a-mole",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahYarian/mk-whack-a-mole.git"
+  },
+  "author": "Noah Yarian <Noah.Yarian@Gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoahYarian/mk-whack-a-mole/issues"
+  },
+  "homepage": "https://github.com/NoahYarian/mk-whack-a-mole#readme"
+}
