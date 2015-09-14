@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name="description" content="A Mortal Kombat-themed whack-a-mole game built using Jade, Sass, and vanilla JavaScript")
+    title MK Whack-A-Mole
+    link(rel='stylesheet', href='main.css')
+    link(rel="icon", type="image/png", href="images/favicon-32x32.png", sizes="32x32")
+    link(rel="icon", type="image/png", href="images/favicon-16x16.png", sizes="16x16")
+  body
+    .container
+      .timer
+      table
+        tr
+          td
+          td
+          td
+          td
+          td
+        tr
+          td
+          td
+          td
+          td
+          td
+        tr
+          td
+          td
+          td
+          td
+          td
+        tr
+          td
+          td
+          td
+          td
+          td
+        tr
+          td
+          td
+          td
+          td
+          td
+      .score Score:
+        span.score-board
+      .start
+        .finish-him
+          button(id="start-button") FINISH HIM
+      .finish
+        img(src="http://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Mortal_Kombat_Logo.svg/1017px-Mortal_Kombat_Logo.svg.png")
+        .endScore
+          div Score:
+          .final-score
+        button(id="play-again") PLAY AGAIN
+    audio.punch
+      source(src="http://soundjax.com/reddo/61458%5Epunch.mp3" type="audio/mp3")
+    audio.begin
+      source(src="http://www.leedberg.com/MotaroFTP/sounds/finishim.wav" type="audio/wav")
+    audio.fatality
+      source(src="http://www.leedberg.com/MotaroFTP/sounds/fatality.wav" type="audio/wav")
+    script(src='main.js')

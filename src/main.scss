@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'mk2';
+  src: url('https://dl.dropboxusercontent.com/s/i2w3u0bsldctrv6/mk2.ttf');
+}
+
+body {
+  background: #000;
+  font-family: mk2;
+}
+
+.container {
+  width: 525px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table{
+  height: 525px;
+  width: 525px;
+  border-spacing: 0;
+  cursor: url("http://blogs.longwood.edu/librarywerx/files/2011/09/gavel.png"), auto;
+  display: none;
+}
+
+td {
+  padding: 0;
+}
+
+.blank {
+  background: #888;
+}
+
+.score {
+  font-size: 2em;
+  color: red;
+  display: none;
+  justify-content: center;
+}
+
+.score-board {
+  margin-left: 10px;
+  font-weight: 2.1em;
+}
+
+audio {
+  display: none;
+}
+
+.start {
+  height: 525px;
+  width: 525px;
+  background-image: url("http://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Mortal_Kombat_Logo.svg/1017px-Mortal_Kombat_Logo.svg.png");
+  background-size: contain;
+  display: table-cell;
+}
+
+.finish-him{
+  margin-left: 26%;
+  margin-top: 60%;
+  button {
+    color: #fff;
+    text-shadow: 1px 4px #EA1A31;
+    &:hover {
+      text-shadow: 2px 6px #F5813E;
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+/*.finish-him input[type="text"] {
+  height: 25px;
+  text-align: center;
+}*/
+button {
+    font-family: 'mk2';
+    font-size: 3em;
+    background: none;
+    border: 0;
+    cursor: pointer;
+  }
+
+
+.finish {
+  display: none;
+  height: 525px;
+  width: 525px;
+  text-align: center;
+  color: #fff;
+  img {
+    -webkit-filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);
+    height: 525px;
+    width: 525px;
+    z-index: -1;
+  }
+  .endScore {
+    div {
+      display: inline-block;
+      position: relative;
+      top: -233px;
+    }
+  }
+
+  .final-score{
+    margin-left: 10px;
+  }
+
+  button {
+    color: #fff;
+    text-shadow: 1px 4px #40C64C;
+    position: relative;
+    top: -234px;
+    left: 0px;
+    &:hover {
+      color: #fff;
+      text-shadow: 2px 6px #46EE8D;
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+.timer {
+  display: none;
+  color: red;
+  text-align: center;
+  font-size: 2em;
+}
+
+/**********
+SPRITE TOWN
+**********/
+
+.sprite {
+    background-image: url(http://i.imgur.com/SnoJfwY.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-mortal-1 {
+    width: 105px;
+    height: 105px;
+    background-position: -5px -5px;
+}
+
+.sprite-mortal-10 {
+    width: 105px;
+    height: 105px;
+    background-position: -120px -5px;
+}
+
+.sprite-mortal-11 {
+    width: 105px;
+    height: 105px;
+    background-position: -235px -5px;
+}
+
+.sprite-mortal-12 {
+    width: 105px;
+    height: 105px;
+    background-position: -5px -120px;
+}
+
+.sprite-mortal-13 {
+    width: 105px;
+    height: 105px;
+    background-position: -120px -120px;
+}
+
+.sprite-mortal-2 {
+    width: 105px;
+    height: 105px;
+    background-position: -235px -120px;
+}
+
+.sprite-mortal-3 {
+    width: 105px;
+    height: 105px;
+    background-position: -5px -235px;
+}
+
+.sprite-mortal-4 {
+    width: 105px;
+    height: 105px;
+    background-position: -120px -235px;
+}
+
+.sprite-mortal-5 {
+    width: 105px;
+    height: 105px;
+    background-position: -235px -235px;
+}
+
+.sprite-mortal-6 {
+    width: 105px;
+    height: 105px;
+    background-position: -350px -5px;
+}
+
+.sprite-mortal-7 {
+    width: 105px;
+    height: 105px;
+    background-position: -350px -120px;
+}
+
+.sprite-mortal-8 {
+    width: 105px;
+    height: 105px;
+    background-position: -350px -235px;
+}
+
+.sprite-mortal-9 {
+    width: 105px;
+    height: 105px;
+    background-position: -5px -350px;
+}
